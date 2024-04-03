@@ -1,0 +1,154 @@
+/* general */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    background-color: rgb(255, 196, 0);
+}
+
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.blue {
+background-color: rgb(45, 143, 223);
+color: white;
+text-align: center;
+height: 100%;
+
+}
+
+h2{
+    text-align: center; 
+    font-size: xx-large;
+}
+
+header{
+    background-color: rgb(46, 100, 201);
+    color: white;        
+}
+.entete{
+    border-bottom: 1px white solid;
+    border-top: 1px white solid;
+}
+.entete>img{
+   width: 100%;
+   vertical-align: bottom;
+}
+nav{
+    display: flex;
+    align-items: center;
+    border-bottom-style: dashed;
+}
+nav>ul{
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+   
+}
+li{
+    list-style: none;
+    
+}
+li>a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+h2{
+
+    color: darkorange;
+    font-size: xx-large;
+    margin: 10px 10px 20px 0;
+    text-align: left;
+
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+article{
+    width: 60%;
+}
+article>p{
+    text-align: justify;
+}
+
+.affiche{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.affiche>figure{
+    width: 30%;
+}
+
+aside{
+    padding: 5px;
+    padding-bottom: 20px;
+    width: 30%;
+
+  
+    margin: 5px;
+   
+}
+
+h3{
+    font-size: x-large;
+}
+h4{
+    font-size: medium;
+    font-style: italic;
+}
+   
+
+.film{
+    border-style: none;
+    width: 100%;
+}
+
+.matt{
+    border-width: 1px;
+     padding: 10px 20px;
+     margin: 20px;
+}
+.matt>img{
+    max-width: 80%;
+    height: auto;
+}
+aside>div>p{
+    max-width: 100%;
+    height: auto;
+    text-align: justify;
+    padding: 5px;
+    font-size: medium;
+
+}
+
+
+  
+
+  footer {
+    background-color: rgb(23, 43, 155);
+color: white;
+text-align: center;
+
+
+  }
